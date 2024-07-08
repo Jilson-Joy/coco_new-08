@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+.emailform {
+  margin-top: 200px;
+}
+.emailinput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.emailinput label{
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.emailinput input {
+    border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.emailinputButton{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.emailinputButton button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.signatureform1{
+padding: 10px;
+border-radius: 10px;
+}
